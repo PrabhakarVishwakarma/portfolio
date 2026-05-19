@@ -158,13 +158,13 @@ body.dark-mode .project-card:hover {
     color: var(--text-primary);
 }
 
-.status-dot {
+/* .status-dot {
     height: 8px;
     width: 8px;
     background-color: #22c55e; /* Green active dot */
-    border-radius: 50%;
-    display: inline-block;
-}
+    /* border-radius: 50%;
+    display: inline-block; */
+/* }  */ */
 
 .project-desc {
     font-size: 0.85rem;
@@ -194,4 +194,38 @@ body.dark-mode .project-card:hover {
 body.dark-mode .tag {
     border-color: var(--border-color);
 
+}
+
+.skill-logo{
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+    
+}
+.filter-logo{
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}
+
+.github-filter{
+    background: white;
+    border-radius: 50%;
+    padding: 1px;
+}
+
+.github-logo{
+    background: white;
+    border-radius: 50%;
+    padding: 1px;
+    
+}
+.social-logo{
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}
+
+.leetcode-logo{
+    filter: brightness(0) saturate(100%) invert(54%) sepia(94%) saturate(749%) hue-rotate(360deg) brightness(102%) contrast(101%);
 }
